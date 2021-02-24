@@ -45,6 +45,12 @@ $CMP MX25V1006FM1I
 F http://www.macronix.com/Lists/Datasheet/Attachments/7430/MX25V1006F,%202.5V,%201Mb,%20v1.0.pdf
 $ENDCMP
 #
+$CMP PKMCS0909E4000-R1
+D Crystal speaker/transducer
+K crystal speaker transducer
+F https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx
+$ENDCMP
+#
 $CMP PMN30UNX
 D N-MOSFET transistor, drain/gate/source
 K transistor NMOS N-MOS N-MOSFET
@@ -75,6 +81,12 @@ $ENDCMP
 #
 $CMP SPEC-110-902
 F http://www.spec-sensors.com/wp-content/uploads/2016/06/RESP_IRR_20-C-Package-110-902.pdf
+$ENDCMP
+#
+$CMP Speaker_Ultrasound
+D Ultrasonic transducer
+K crystal speaker ultrasonic transducer
+F ~
 $ENDCMP
 #
 $CMP TPS22919
