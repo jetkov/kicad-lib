@@ -1,0 +1,17 @@
+(module TL3301SPF160QG (layer F.Cu) (tedit 603A8838)
+  (fp_text reference REF** (at -0.1 5.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TL3301SPF160QG (at -0.1 4.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 4.55 -2.25 180) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -4.55 -2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.55 2.25 180) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
+  (model :JetkovKiCADLib:TL3301SPFxxxxG.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

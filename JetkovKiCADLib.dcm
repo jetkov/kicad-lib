@@ -79,6 +79,10 @@ $CMP SHTC3
 F https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf
 $ENDCMP
 #
+$CMP SM-UART-04L
+F https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27
+$ENDCMP
+#
 $CMP SPEC-110-902
 F http://www.spec-sensors.com/wp-content/uploads/2016/06/RESP_IRR_20-C-Package-110-902.pdf
 $ENDCMP
@@ -87,6 +91,12 @@ $CMP Speaker_Ultrasound
 D Ultrasonic transducer
 K crystal speaker ultrasonic transducer
 F ~
+$ENDCMP
+#
+$CMP TL3301SPF160QG
+D Push button switch, generic, four pins
+K switch normally-open pushbutton push-button
+F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/158/TL3301.pdf
 $ENDCMP
 #
 $CMP TPS22919
