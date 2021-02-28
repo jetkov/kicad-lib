@@ -99,6 +99,12 @@ K switch normally-open pushbutton push-button
 F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/158/TL3301.pdf
 $ENDCMP
 #
+$CMP TL3301SPF160QJ
+D Push button switch, generic, four pins
+K switch normally-open pushbutton push-button
+F https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf
+$ENDCMP
+#
 $CMP TPS22919
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps22919
 $ENDCMP
