@@ -484,7 +484,7 @@ ENDDEF
 # SM-UART-04L
 #
 DEF SM-UART-04L S 0 40 Y Y 1 F N
-F0 "S" 0 0 40 H V C CNN
+F0 "S" 0 100 40 H V C CNN
 F1 "SM-UART-04L" 0 -100 40 H V C CNN
 F2 "JetkovKiCADLib:SM-UART-04L" 0 -200 40 H I C CNN
 F3 "" 0 0 40 H I C CNN
@@ -493,7 +493,8 @@ F5 "Amphenol Advanced Sensors" 0 -200 40 H I C CNN "Manufacturer"
 F6 "PM2.5 IR LASER DUST SENSOR" 0 -200 40 H I C CNN "Description"
 F7 "-10°C +50°C" 0 -200 40 H I C CNN "Temp Range"
 DRAW
-S -50 50 50 -50 0 1 0 F
+T 0 0 0 40 0 0 0 S Normal 0 C C
+S -50 50 50 -50 0 1 0 f
 ENDDRAW
 ENDDEF
 #
