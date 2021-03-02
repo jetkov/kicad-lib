@@ -149,14 +149,6 @@ for group in grouped:
     if (group[0].getValue() == 'DNP' or net.getGroupField(group, 'Part Number') == '' or net.getGroupField(group, 'Part Number') == '~'):
         writegroup(net, group, row, out)
 
-writerow( out, [] )
-
-for group in grouped:
-    del row[:]
-    
-    if (net.getGroupField(group, 'Part Number') == ''):
-        writegroup(net, group, row, out)
-
 # Output a set of rows as a header providing general information
 writerow( out, [] )
 writerow( out, ['Source:', net.getSource()] )
