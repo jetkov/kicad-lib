@@ -138,7 +138,7 @@ grouped = net.groupComponents(components)
 for group in grouped:
     del row[:]
     
-    if (group[0].getValue() != 'DNP' or net.getGroupField(group, 'Part Number') != ''):
+    if (group[0].getValue() != 'DNP' and net.getGroupField(group, 'Part Number') != '' and net.getGroupField(group, 'Part Number') != '~'):
         writegroup(net, group, row, out)
 
 writerow( out, [] )
@@ -146,7 +146,7 @@ writerow( out, [] )
 for group in grouped:
     del row[:]
     
-    if (group[0].getValue() == 'DNP'):
+    if (group[0].getValue() == 'DNP' or net.getGroupField(group, 'Part Number') == '' or net.getGroupField(group, 'Part Number') == '~'):
         writegroup(net, group, row, out)
 
 writerow( out, [] )
