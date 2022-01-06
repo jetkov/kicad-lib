@@ -85,7 +85,7 @@ columns = [
             'Description',
             #'LibPart', 
             'Footprint',
-            #'Datasheet'
+            'Datasheet'
           ] #+ sorted(list(columnset))
 
 # Create a new csv writer object to use as the output formatter
@@ -118,7 +118,8 @@ def writegroup(net, group, row, out):
     row.append( net.getGroupField(group, 'Description') )
     #row.append( c.getLibName() + ":" + c.getPartName() )
     row.append( net.getGroupFootprint(group) )
-    #row.append( net.getGroupDatasheet(group) )
+    row.append( net.getGroupDatasheet(group) )
+    row.append( net.getGroupField(group, 'Datasheet') )
 
     # from column 7 upwards, use the fieldnames to grab the data
     #for field in columns[7:]:
