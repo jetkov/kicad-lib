@@ -1,6 +1,6 @@
 (footprint "TO-252-2-3_DPAK_ST" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F5AEE7)
+  (tedit 61FDDF1E)
   (attr smd)
   (fp_text reference "REF**" (at 0.895 -4.515) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -37,8 +37,8 @@
   (pad "" smd rect (at 4.67 -1.54) (size 3.05 2.75) (layers "F.Paste") (tstamp a0a8a96b-b779-4daf-97dd-7e5cf44be371))
   (pad "" smd rect (at 1.32 -1.54) (size 3.05 2.75) (layers "F.Paste") (tstamp be38b6b4-07fe-46cb-9636-991ca80eb1da))
   (pad "1" smd rect (at -4.85 -2.286) (size 3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0d97d0a7-1cd1-4f9c-8f0d-80354719c46f))
-  (pad "2" smd rect (at 3 0) (size 6.7 6.7) (layers "F.Cu" "F.Mask") (tstamp a4fa321b-bf67-4550-84af-1aa6b788cd86))
-  (pad "3" smd rect (at -4.85 2.286) (size 3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f52cbf36-51d1-4d33-8de4-637622a2b888))
+  (pad "2" smd rect (at -4.85 2.286) (size 3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f52cbf36-51d1-4d33-8de4-637622a2b888))
+  (pad "3" smd rect (at 3 0) (size 6.7 6.7) (layers "F.Cu" "F.Mask") (tstamp a4fa321b-bf67-4550-84af-1aa6b788cd86))
   (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
