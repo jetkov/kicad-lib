@@ -1,6 +1,6 @@
 (footprint "Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F394DE)
+  (tedit 6203DA6A)
   (descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Nano-Fit side entry")
   (attr through_hole)
@@ -71,5 +71,10 @@
     (offset (xyz 0 -1.25 4.85))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
+  )
+  (model "${JETKOV_KICAD_LIB_3D_DIR}/1053071202.step"
+    (offset (xyz 0 -1.25 19))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
   )
 )

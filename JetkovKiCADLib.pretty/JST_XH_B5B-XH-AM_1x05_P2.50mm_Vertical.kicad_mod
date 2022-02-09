@@ -1,6 +1,6 @@
 (footprint "JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F3971C)
+  (tedit 6203DC9D)
   (descr "JST XH series connector, B5B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
   (tags "connector JST XH vertical boss")
   (attr through_hole)
@@ -65,5 +65,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${JETKOV_KICAD_LIB_3D_DIR}/XHP-5.step"
+    (offset (xyz 5 -3.42 5.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
   )
 )

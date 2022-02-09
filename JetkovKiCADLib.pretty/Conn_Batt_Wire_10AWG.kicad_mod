@@ -1,6 +1,7 @@
 (footprint "Conn_Batt_Wire_10AWG" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61FDE2BA)
+  (tedit 6203FD2F)
+  (clearance 1)
   (attr through_hole)
   (fp_text reference "REF**" (at 5.9 3.7) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
